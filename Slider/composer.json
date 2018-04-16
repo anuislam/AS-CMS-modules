@@ -1,0 +1,27 @@
+{
+    "name": "nwidart/slider",
+    "title": "Slider Module",
+    "description": "Slider Module",
+    "type": "Module",
+    "authors": [
+        {
+            "name": "Anu islam",
+            "email": "anuislams@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Slider\\Providers\\SliderServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Slider\\": ""
+        }
+    }
+}
