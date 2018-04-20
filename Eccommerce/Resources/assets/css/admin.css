@@ -1,0 +1,15 @@
+ul.ecommerce_menu_admin{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	width: 100%;
+	overflow: hidden;
+	clear: both;
+	margin: 10px 0 20px 0;
+}
+.ecommerce_menu_admin li{
+	float: left;
+	display: inline-block;
+	padding: 0 5px 0 0;
+}
+.ecommerce_menu_admin li a{}
