@@ -1,0 +1,28 @@
+{
+    "name": "nwidart/allstor",
+    "title": "All Stor Ecommerce Website",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus aliquid officia placeat voluptatum, illo fugit cupiditate dolores provident expedita eaque natus quas aspernatur sapiente, repellat, ducimus delectus ab porro, nesciunt?",  
+    "type":        "Theme",
+    "thumbnail":   "/img/screenshot.jpg",
+    "authors": [
+        {
+            "name": "Anu islam",
+            "email": "anuislams@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\AllStor\\Providers\\AllStorServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\AllStor\\": ""
+        }
+    }
+}
