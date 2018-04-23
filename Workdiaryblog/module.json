@@ -1,0 +1,17 @@
+{
+    "name": "Workdiaryblog",
+    "alias": "workdiaryblog",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Workdiaryblog\\Providers\\WorkdiaryblogServiceProvider"
+    ],
+    "aliases": [],
+    "files": [
+        "helpers.php",
+        "start.php"
+    ],
+    "requires": []
+}

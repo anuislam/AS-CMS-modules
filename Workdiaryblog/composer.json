@@ -1,0 +1,29 @@
+{
+    "name": "nwidart/allstor",
+    "title": "WorkDiary Blog",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus aliquid officia placeat voluptatum, illo fugit cupiditate dolores provident expedita eaque natus quas aspernatur sapiente, repellat, ducimus delectus ab porro, nesciunt?",  
+    "type":        "Theme",
+    "thumbnail":   "image/screenshot.png",
+    "authors": [
+        {
+            "name": "Anu islam Shohag",
+            "email": "anuislams@gmail.com",
+            "author_url":   "https://www.facebook.com/anuislam.shohag.3"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Workdiaryblog\\Providers\\WorkdiaryblogServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Workdiaryblog\\": ""
+        }
+    }
+}

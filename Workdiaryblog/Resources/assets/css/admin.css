@@ -1,0 +1,11 @@
+div.set_image{
+	margin: 15px 0;
+	width: 200px;
+	height: 200px;
+	display: none;
+}
+
+div.set_image img{
+	width: 200px;
+	height: 200px;	
+}
